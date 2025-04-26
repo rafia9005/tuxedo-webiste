@@ -2,8 +2,9 @@ version: '3.8'
 
 services:
   app:
-    image: tuxedolabs/website  
+    image: tuxedolabs/website:latest
     container_name: tuxedolabs-website
     ports:
-      - "30001:4173"  
-    restart: unless-stopped 
+      - "30001:4173"
+    restart: unless-stopped
+    
