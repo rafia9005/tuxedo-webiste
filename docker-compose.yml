@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: tuxedolabs/website  
+    container_name: tuxedolabs-website
+    ports:
+      - "30001:4173"  
+    restart: unless-stopped 
